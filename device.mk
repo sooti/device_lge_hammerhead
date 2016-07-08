@@ -148,6 +148,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
+# Glove mode
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
     libstagefrighthw \
