@@ -128,8 +128,8 @@
     <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">true</bool>
 
-    <!-- Does the notification LED support multiple colors? Used to decide if the user can change the colors -->
-    <bool name="config_multiColorNotificationLed">true</bool>
+    <!-- Does the notification LED support multiple colors? Used to decide if the user can change the colors
+    <bool name="config_multiColorNotificationLed">true</bool> -->
 
     <!-- Do the battery/notification LEDs support pulsing? Used to decide if we show pulse settings -->
     <bool name="config_ledCanPulse">true</bool>
@@ -312,9 +312,8 @@
     <!-- enable doze powersaving mode -->
     <bool name="config_enableAutoPowerModes">true</bool>
 
-
-    <!-- Wheter to enable doze always on -->
-    <bool name="config_enableDozeAlwaysOn">true</bool>
+    <!-- Wheter to enable doze always on
+    <bool name="config_enableDozeAlwaysOn">true</bool> -->
 
     <!-- Doze: should the TYPE_PICK_UP_GESTURE sensor be used as a pulse signal. -->
     <bool name="config_dozePulsePickup">true</bool>
@@ -334,8 +333,8 @@
     <!-- Proximity check on screen on default -->
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
 
-    <!-- Device have alternative doze mode -->
-    <bool name="config_alt_ambient_display">true</bool>
+    <!-- Device have alternative doze mode
+    <bool name="config_alt_ambient_display">true</bool> -->
 
     <!-- Flag indicating which package name can access the persistent data partition -->
     <string name="config_persistentDataPackageName" translatable="false">com.google.android.gms</string>
