@@ -140,6 +140,10 @@ PRODUCT_PACKAGES += \
     libqdutils \
     libqdMetaData
 
+#LiveDisplay HAL
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@1.0-service-sdm
+
 # Dumpstate HAL
 PRODUCT_PACKAGES += \
     android.hardware.dumpstate@1.0-service.hammerhead
