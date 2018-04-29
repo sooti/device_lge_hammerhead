@@ -21,13 +21,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/gzosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 
-PRODUCT_NAME := gzosp_hammerhead
+PRODUCT_NAME := aosp_hammerhead
 PRODUCT_DEVICE := hammerhead
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := Nexus 5
@@ -38,6 +38,13 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=hammerhead \
     BUILD_FINGERPRINT=google/hammerhead/hammerhead:6.0.1/M4B30Z/3437181:user/release-keys \
     PRIVATE_BUILD_DESC="hammerhead-user 6.0.1 M4B30Z 3437181 release-keys"
+
+# AOSP Packages
+PRODUCT_PACKAGES += \
+    Launcher3 \
+    messaging \
+    Terminal
+
 
 $(call inherit-product, device/lge/hammerhead/device.mk)
 $(call inherit-product-if-exists, vendor/lge/hammerhead/device-vendor.mk)
