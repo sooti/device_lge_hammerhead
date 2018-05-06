@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+4<?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
 ** Copyright 2009, The Android Open Source Project
@@ -20,7 +20,7 @@
 <!-- These resources are around just to allow their values to be customized -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Threshold in micro watts below which a charger is rated as "slow"; 1A @ 4.2V -->
-    <integer name="config_chargingSlowlyThreshold">4200000</integer>
+    <!-- Threshold in micro watts below which a charger is rated as "slow"; 0.5A @ 2.1V -->
+    <integer name="config_chargingSlowlyThreshold">2100000</integer>
 
 </resources>
