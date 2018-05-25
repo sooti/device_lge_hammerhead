@@ -378,6 +378,12 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.radio.use_cc_names=true
 
+# AOSP Packages
+PRODUCT_PACKAGES += \
+    Launcher3 \
+    messaging \
+    Terminal
+
 # If data_no_toggle is 1 then active and dormancy enable at all times.
 # If data_no_toggle is 0 there are no reports if the screen is off.
 # Leaving this property unset defaults to '0'
